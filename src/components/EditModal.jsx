@@ -1,14 +1,15 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
 
-const EditModal = ({
-  show,
-  onHide,
-  handleCancel,
-  handleEditSubmit,
-  handleEditChange,
-  editForm,
-}) => {
+const EditModal = (props) => {
+  const {
+    show,
+    onHide,
+    handleCancel,
+    handleEditSubmit,
+    handleEditChange,
+    editForm,
+  } = props;
   return (
     <>
       <Modal show={show} onHide={onHide}>

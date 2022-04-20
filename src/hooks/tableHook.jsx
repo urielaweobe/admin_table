@@ -22,6 +22,7 @@ const useTableHook = () => {
 
   const handleAddChange = (e) => {
     const { name, value } = e.target;
+
     setAddData((prevData) => {
       return {
         ...prevData,
@@ -88,6 +89,7 @@ const useTableHook = () => {
 
     const newContacts = [...contacts, newContact];
     setContacts(newContacts);
+    setAddData(null);
   };
 
   const handleCancel = () => {

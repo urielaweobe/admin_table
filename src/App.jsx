@@ -57,7 +57,7 @@ function App() {
                 >
                   <AiOutlineEdit />
                 </a>
-                <a to="" onClick={() => handleDelete(contact.id)}>
+                <a href="" onClick={() => handleDelete(contact.id)}>
                   <AiOutlineDelete />
                 </a>
               </td>

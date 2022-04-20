@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "fullName",
+    "placeholder": "John Doe",
+    "label": "Full Name",
+    "errorMessage": "Please enter your full name!",
+    "required": "true"
+  },
+  {
+    "id": 2,
+    "name": "address",
+    "placeholder": "Enter your address",
+    "label": "Address",
+    "errorMessage": "Please enter your address!",
+    "required": "true"
+  },
+  {
+    "id": 3,
+    "name": "phoneNumber",
+    "placeholder": "333-444-555",
+    "label": "Phone Number",
+    "errorMessage": "Please enter a valid phone number",
+    "required": "true"
+  },
+  {
+    "id": 4,
+    "name": "email",
+    "placeholder": "john@gmail.com",
+    "label": "Email",
+    "errorMessage": "It should be a valid email address!",
+    "required": "true",
+    "pattern": "[\\w-]+@([\\w-]+\\.)+[\\w-]+"
+  }
+]

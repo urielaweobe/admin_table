@@ -1,0 +1,14 @@
+.errorMsg {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+.input__check:invalid[focused="true"] {
+  border: 1px solid red !important;
+}
+
+.input__check:invalid[focused="true"] ~ span {
+  display: block;
+}
